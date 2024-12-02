@@ -14,10 +14,8 @@ class LibraryApiService {
       if (response.statusCode == 200) {
         final Map<String, dynamic> data = json.decode(response.body);
         
-        // Debug print to understand the API response structure
         print('API Response: $data');
 
-        // Adjust this based on the actual API response structure
         final List<dynamic> results = data['results'] ?? [];
 
         return results.map((book) => BookModel.fromJson(book)).toList();

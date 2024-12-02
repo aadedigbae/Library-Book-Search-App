@@ -106,17 +106,14 @@ class BookDetailsScreen extends StatelessWidget {
     try {
       final Uri url = Uri.parse(urlString);
       if (await canLaunchUrl(url)) {
-        // Attempt to launch the URL
         await launchUrl(
           url, 
-          mode: LaunchMode.externalApplication, // Opens in external browser
+          mode: LaunchMode.externalApplication,
         );
       } else {
-        // If URL cannot be launched, show an error dialog
         _showUrlErrorDialog(context, urlString);
       }
     } catch (e) {
-      // Handle any unexpected errors
       _showUrlErrorDialog(context, urlString);
     }
   }
@@ -135,8 +132,6 @@ class BookDetailsScreen extends StatelessWidget {
             TextButton(
               child: const Text('Copy Link'),
               onPressed: () {
-                // Implement link copying logic
-                // You might want to use a package like clipboard
                 Navigator.of(context).pop();
               },
             ),

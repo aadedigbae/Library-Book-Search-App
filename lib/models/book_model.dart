@@ -25,7 +25,6 @@ class BookModel {
 
   static String _parseTitle(Map<String, dynamic> json) {
     try {
-      // LOC API might have title in different formats
       if (json['title'] is String) return json['title'];
       if (json['title'] is List) return json['title'].first ?? 'Unknown Title';
       return 'Unknown Title';
@@ -36,7 +35,6 @@ class BookModel {
 
   static List<String> _parseAuthors(Map<String, dynamic> json) {
     try {
-      // Handle different possible author formats
       if (json['creators'] is List) {
         return json['creators']
             .map<String>((creator) => 
@@ -72,8 +70,7 @@ class BookModel {
 
   static String _parseThumbnail(Map<String, dynamic> json) {
     try {
-      // LOC API might not have direct thumbnail, so we'll return empty
-      return ''; // You might need to implement a custom thumbnail logic
+      return '';
     } catch (e) {
       return '';
     }
@@ -81,7 +78,6 @@ class BookModel {
 
   static String _parsePreviewLink(Map<dynamic, dynamic> json) {
     try {
-      // LOC API might have different link structures
       if (json['url'] is String) return json['url'];
       return '';
     } catch (e) {

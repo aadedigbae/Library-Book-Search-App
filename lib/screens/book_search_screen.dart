@@ -21,7 +21,6 @@ class _BookSearchScreenState extends State<BookSearchScreen> {
   @override
   void initState() {
     super.initState();
-    // Perform initial search when screen loads
     WidgetsBinding.instance.addPostFrameCallback((_) {
       _searchController.text = widget.searchQuery;
       Provider.of<BookSearchProvider>(context, listen: false)

@@ -50,7 +50,6 @@ class _HomeScreenState extends State<HomeScreen> {
 
   void _performSearch(String query) {
     if (query.isNotEmpty) {
-      // Navigate to search results screen
       Navigator.push(
         context,
         MaterialPageRoute(
