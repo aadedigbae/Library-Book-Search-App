@@ -4,7 +4,7 @@
 
 I developed the Library Book Search Mobile Application developed using Flutter. The app allows users to search and explore books from the Library of Congress (LOC) digital collection. The app provides an intuitive, dark-mode interface for discovering and learning about books.
 
-## 🎯 Project Purpose
+## Project Purpose
 
 The primary goal of this application is to create a user-friendly mobile app that:
 - Enables quick and efficient book searches
@@ -12,7 +12,7 @@ The primary goal of this application is to create a user-friendly mobile app tha
 - Offers a seamless reading experience
 - Demonstrates modern Flutter development practices
 
-## 🌟 Key Features
+## Key Features
 
 - Dark mode interface
 - Book search functionality
@@ -21,7 +21,7 @@ The primary goal of this application is to create a user-friendly mobile app tha
 - Error handling
 - State management with Provider
 
-## 📡 API Selection: Library of Congress
+## API Selection: Library of Congress
 
 ### Why Library of Congress API?
 - Free and publicly accessible
@@ -33,7 +33,7 @@ The primary goal of this application is to create a user-friendly mobile app tha
 - Book search: `https://www.loc.gov/books/`
 - Retrieves book information based on search queries
 
-## 🖥️ Screens and Functionalities
+## Screens and Functionalities
 
 ### 1. Home Screen
 - Initial entry point
@@ -54,7 +54,7 @@ The primary goal of this application is to create a user-friendly mobile app tha
 - Description
 - Preview book button
 
-## 🛠️ Technical Architecture
+## Technical Architecture
 
 ### State Management
 - Provider for efficient state handling
@@ -65,7 +65,7 @@ The primary goal of this application is to create a user-friendly mobile app tha
 - Dependency injection
 - Separation of concerns
 
-## 🧩 Critical Components
+## Critical Components
 
 ### Models
 - `BookModel`: Represents book data structure
@@ -81,7 +81,7 @@ The primary goal of this application is to create a user-friendly mobile app tha
 - `BookSearchProvider`: Manages search state
 - Handles loading, error, and data states
 
-## 🚧 Development Challenges and Solutions
+## Development Challenges and Solutions
 
 ### 1. API Response Parsing
 **Challenge**: Inconsistent JSON structures
@@ -104,7 +104,7 @@ The primary goal of this application is to create a user-friendly mobile app tha
 - Adaptive color schemes
 - Consistent typography
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Flutter SDK
