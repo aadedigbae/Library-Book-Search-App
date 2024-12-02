@@ -1,8 +1,8 @@
-# Library Book Search 📚🔍
+# Library Book Search App
 
 ## Project Overview
 
-Library Book Search is a mobile application developed using Flutter that allows users to search and explore books from the Library of Congress (LOC) digital collection. The app provides an intuitive, dark-mode interface for discovering and learning about books.
+I developed the Library Book Search Mobile Application developed using Flutter. The app allows users to search and explore books from the Library of Congress (LOC) digital collection. The app provides an intuitive, dark-mode interface for discovering and learning about books.
 
 ## 🎯 Project Purpose
 
@@ -95,7 +95,7 @@ The primary goal of this application is to create a user-friendly mobile app tha
 **Solution**:
 - Comprehensive error handling
 - User-friendly error messages
-- Graceful error state management
+- Intuitive error state management
 
 ### 3. Dark Mode Implementation
 **Challenge**: Consistent dark theme across screens
@@ -116,6 +116,9 @@ The primary goal of this application is to create a user-friendly mobile app tha
 1. Clone the repository
 ```bash
 git clone https://github.com/yourusername/library-book-search.git
+
+2. Install dependencies
+fl
 
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
