@@ -116,10 +116,22 @@ The primary goal of this application is to create a user-friendly mobile app tha
 1. Clone the repository
 ```bash
 git clone https://github.com/yourusername/library-book-search.git
+```
 
 2. Install dependencies
-fl
+```bash
+flutter pub get
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+3. Run the app
+```bash
+flutter run
+```
+
+### Dependencies
+- flutter
+- provider
+- http
+- cached_network_image
+- google_fonts
+- url_launcher
